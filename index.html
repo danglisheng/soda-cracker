@@ -1,1 +1,122 @@
-<h1>It works!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>近十天练习</title>
+  <style>
+    *,*::before,*::after {
+      box-sizing: border-box;
+    }
+    .clearfix::after {
+       content:"";
+       display:table;
+       clear:both;
+    }
+    body {
+      margin:0;
+    }
+    header {
+      margin:0;
+      padding:0;
+      width:100%;
+      background-color: #444;
+      color:#fff;
+      text-align: center;
+    }
+    header h1 {
+      margin:0;
+      padding:.4em .7em .3em;
+    }
+    main h2 {
+      text-align: center;
+      margin:0;
+      padding:.5em .7em;
+    }
+    .container {
+      max-width:1000px;
+      width:100%;
+      padding-left:20px;
+      padding-right:20px;
+      margin: 0 auto;
+
+    }
+    .btn {
+      
+      width:100%;
+      display:block;
+      margin:10px auto 0;
+      background-color:#953232;
+      color:#232323;
+      border-radius:4px;
+      text-decoration: none;
+      padding:.3em .75em .4em;
+      font-size:1.5rem;
+      transition:all .5s ease 0s;
+    }
+    .btn:hover {
+      color:#953232;
+      background-color: #232323;
+    }
+    @media (min-width:45em){
+      a.btn {
+        float:left;
+        width:32.33%;
+        margin-right:1%;
+      }
+    }
+    .course-link-wrapper{
+      margin:0;
+      text-align:right;
+      margin-right:30px;
+    }
+    a.course-link {
+      color:#777;
+      text-decoration: none;
+    }
+    a.course-link:hover {
+      text-decoration:underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>近十天练习</h1>
+  </header>
+  <main>
+    <section>
+      <div class="container">
+      <h2>阿尔冈昆学院web设计公开课作业</h2>
+      <h3 class="course-link-wrapper">
+        <a href="https://learn-the-web.algonquindesign.ca/courses/web-dev-1/" class="course-link" target="_blank">公开课网址</a>
+      </h3>
+      </div>
+      
+      <div class="container clearfix">
+        <a target="_blank" href="https://danglisheng.github.io/stylish-beets/" class="btn">甜菜 </a>
+        <a target="_blank" href="https://danglisheng.github.io/dinosaur-designs/" class="btn">恐龙</a>
+        <a target="_blank" href="https://danglisheng.github.io/cards/" class="btn">
+          卡片 
+        </a>
+        <a target="_blank" href="https://danglisheng.github.io/horizontal-nav/" class="btn">水平导航栏</a>
+        <a target="_blank" href="https://danglisheng.github.io/sections/" class="btn">金字塔</a>
+        <a target="_blank" href="https://danglisheng.github.io/navigation-highlight/" class="btn">高亮导航栏</a>
+        <a target="_blank" href="https://danglisheng.github.io/button-styles/" class="btn">按钮组件</a>
+        <a target="_blank" href="https://danglisheng.github.io/link-card/" class="btn">链接卡片</a>
+        <a target="_blank" href="https://danglisheng.github.io/header-icons/" class="btn">头部图标</a>
+        <a target="_blank" href="https://danglisheng.github.io/typographic-insets/" class="btn">排版</a>
+        <a target="_blank" href="https://danglisheng.github.io/call-to-action-banner/" class="btn">行为召唤横幅式广告</a>
+        <a target="_blank" href="https://danglisheng.github.io/exploding-robot-head/" class="btn">
+爆头机器人</a>
+        <a target="_blank" href="https://danglisheng.github.io/responsive-navigation/" class="btn">响应式导航栏</a>
+        <a target="_blank" href="https://danglisheng.github.io/hide-show-responsively/" class="btn">响应式显隐图片</a>
+      </div>
+    </section>
+    <section>
+      <h2>慕课网视频项目练习</h2>
+      <div class="container clearfix">
+        <a target="_blank" href="https://danglisheng.github.io/customizing-scrollbar/" class="btn">自定义滚动条</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
